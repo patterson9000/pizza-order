@@ -10,6 +10,45 @@ header {
     text-align: center;
     padding: 20px;
 }
+#navigation {
+    background-color: green;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    margin-right: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#menu li a:hover {
+    background-color: #ddd;
+}
+
 
 section {
     max-width: 800px;

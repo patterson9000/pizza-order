@@ -1,26 +1,88 @@
 #navigation {
-    background-color: green;
-    padding: 10px;
-  }
-  
-  #menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  #menu li {
-    margin-right: 10px;
-  }
-  
-  #menu li a {
-    text-decoration: none;
-    color: red;
-    padding: 5px;
-  }
-  
-  #menu li a:hover {
-    background-color:#ddd;
-  }
-  
+  background-color: green;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-right: 20px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#menu li a:hover {
+  background-color: #ddd;
+}
+
+/* Additional styles for the pizza form */
+#pizzaForm {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+#pizzaForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#pizzaForm select,
+#pizzaForm input[type="checkbox"],
+#pizzaForm input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#pizzaForm button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#pizzaForm button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the result section */
+#result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+#result h2 {
+  color: #333;
+}
