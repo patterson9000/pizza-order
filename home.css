@@ -24,7 +24,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #fff;
+    color: orange;
 }
 
 #menu {
@@ -49,6 +49,26 @@ header {
     background-color: #ddd;
 }
 
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    margin-right: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+#menu li a:hover {
+    color: orangered;
+}
 
 section {
     max-width: 800px;

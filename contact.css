@@ -1,3 +1,4 @@
+/* Add styling for the contact form and other elements */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -70,33 +71,44 @@ header {
 #menu li a:hover {
     color: orangered;
 }
+/* form */
+   
 
-.pizza-menu {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
-.pizza-item {
-    border: 1px solid #ddd;
+section {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-    margin: 10px;
-    width: 300px;
-    text-align: center;
+    border: 1px solid #ddd;
 }
 
 h2 {
     color: #333;
 }
 
-.description {
-    color: #555;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.price {
-    color: orangered;
-    font-weight: bold;
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 footer {
@@ -104,4 +116,7 @@ footer {
     color: orange;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
